@@ -7,3 +7,4 @@ Feature: My Dog Blog Posts are up.
     Given I am on the homepage
     Then I should see "Flora Belle Blog"
     And I should see "The life and times of me"
+    And I should see "Got no sleep last night"
