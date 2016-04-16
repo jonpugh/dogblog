@@ -9,4 +9,4 @@ Feature: My Dog Blog Posts are up.
     And I should see "The life and times of Flora Belle"
     And I should see "Got no sleep last night"
     And I should not see "I love cats"
-    And then I click should see "Good Run!!!"
+    Then I should see "Good Run!!!"
