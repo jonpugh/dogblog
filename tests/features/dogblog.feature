@@ -11,5 +11,6 @@ Feature: My Dog Blog Posts are up.
     And I should see "Got no sleep last night"
     
     When I am logged in as a user with the "administrator" role
+    ## This is failing?
     And I visit "node/add/blog"
     Then I should see "Add a blog"
