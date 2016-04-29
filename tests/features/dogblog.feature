@@ -3,6 +3,7 @@ Feature: My Dog Blog Posts are up.
   I want a blog
   So that I can share my stories.
 
+  @api
   Scenario:
     Given I am on the homepage
     Then I should see "Flora Belle Blog"
