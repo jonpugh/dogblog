@@ -8,3 +8,7 @@ Feature: My Dog Blog Posts are up.
     Then I should see "Flora Belle Blog"
     And I should see "The life and times of Flora Belle"
     And I should see "Got no sleep last night"
+    
+    When I am logged in as a user with the "administrator" role
+    And I visit "node/add/blog"
+    Then I should see "Add a blog"
