@@ -12,5 +12,6 @@ Feature: My Dog Blog Posts are up.
     
     When I am logged in as a user with the "administrator" role
     ## This is failing?  Why aren't my tests running!?
+    # ok pass?
     And I visit "node/add/article"
     Then I should see "Add a blog"
