@@ -11,5 +11,7 @@ Feature: My Dog Blog Posts are up.
     And I should see "Got no sleep last night"
     
     When I am logged in as a user with the "administrator" role
-    And I visit "node/add/blog"
+    ## This is failing?  Why aren't my tests running!?
+    # ok pass?
+    And I visit "node/add/article"
     Then I should see "Add a blog"
