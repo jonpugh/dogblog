@@ -12,5 +12,5 @@ Feature: My Dog Blog Posts are up.
     
     When I am logged in as a user with the "administrator" role
     ## This is failing?
-    And I visit "node/add/blog"
+    And I visit "node/add/article"
     Then I should see "Add a blog"
