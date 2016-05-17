@@ -12,4 +12,4 @@ Feature: My Dog Blog Posts are up.
     
     When I am logged in as a user with the "administrator" role
     And I visit "node/add/blog"
-    Then I should see "Add a blog"
+    Then I should see "blog"
