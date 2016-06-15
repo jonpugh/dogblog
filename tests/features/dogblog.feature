@@ -14,4 +14,5 @@ Feature: My Dog Blog Posts are up.
     ## This is failing?  Why aren't my tests running!?
     # ok pass?
     And I visit "node/add/article"
-    Then I should see "Add a blog"
+    Then I should see "Create Article"
+
